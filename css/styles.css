@@ -1,0 +1,25 @@
+/* Browser Style Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #eee;
+    background: #121212 !important;
+}
+
+#mylogo {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of the logo's width */
+    margin-top: 25px;
+    display: inline-block;
+    image-rendering: auto;
+  }
+
+#mylogo:hover {
+  cursor: none;  
+}
