@@ -8,18 +8,14 @@
 
 body {
     color: #eee;
-    background: #121212 !important;
+    background: rgb(33,37,41) !important;
 }
 
-#mylogo {
-    position: absolute;
-    left: 50%;
-    margin-left: -50px !important;  /* 50% of the logo's width */
-    margin-top: 25px;
-    display: inline-block;
-    image-rendering: auto;
-  }
 
-#mylogo:hover {
-  cursor: none;  
+/* Responsiveness Adjustments */
+
+@media only screen and (max-width: 900px) {
+  #navbarNavAltMarkup {
+    text-align: center !important;
+  }
 }
