@@ -1,16 +1,26 @@
 /* Browser Style Reset */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    color: #eee;
-    background: rgb(33,37,41) !important;
+  color: #eee;
+  background: rgb(33, 37, 41) !important;
+  font-family: 'Recursive', sans-serif !important;
 }
 
+footer {
+  z-index: 100;
+  box-shadow: 0px 0 3px rgba(0, 0, 0, 0.6);
+}
+
+p.footer {
+  margin-top: 1rem !important;
+  color: #eee;
+}
 
 /* Responsiveness Adjustments */
 
