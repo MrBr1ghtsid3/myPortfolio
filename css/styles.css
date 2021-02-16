@@ -7,19 +7,19 @@
 }
 
 body {
-  color: #eee;
+  color: #eee !important;
   background: rgb(33, 37, 41) !important;
   font-family: 'Recursive', sans-serif !important;
 }
 
-footer {
-  z-index: 100;
-  box-shadow: 0px 0 3px rgba(0, 0, 0, 0.6);
+#selfie {
+  float: left;
+  border-radius: 10px;
+  box-shadow: 5px 5px #888888;
 }
 
 p.footer {
-  margin-top: 1rem !important;
-  color: #eee;
+  margin: 0.5rem 0 !important;
 }
 
 /* Responsiveness Adjustments */
@@ -27,5 +27,9 @@ p.footer {
 @media only screen and (max-width: 900px) {
   #navbarNavAltMarkup {
     text-align: center !important;
+  }
+
+  #selfie {
+    align-items: center !important; 
   }
 }
