@@ -15,16 +15,20 @@ body {
   font-family: 'Recursive', sans-serif !important;
 }
 
-#intro, #work {
+#intro, #work, #setup {
   margin-top: 125px;
 }
 
-.greeting, .detail {
+.greeting {
   padding: 70px 0;
   max-width: 90%;
 }
 
-.i, .w {
+.detail {
+  vertical-align: text-top;
+}
+
+.i, .w, .s {
   padding-bottom: 25px;
 }
 
@@ -41,7 +45,6 @@ body {
   box-shadow: 5px 5px rgb(212,54,75);
 }
 
-
 #carouselExampleCaptions .carousel-item .carousel-caption{
   background-color: rgba(33,37,41,0.5);
   text-align: left;
@@ -49,6 +52,7 @@ body {
 
 p.footer {
   margin: 0.5rem 0 !important;
+  display: inline-block;
 }
 
 /* Responsiveness Adjustments */
