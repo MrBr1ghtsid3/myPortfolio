@@ -4,13 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #eee;
 }
 
 body {
   display: grid;
   gap: 24px;
   grid-template-rows: auto 1fr auto;
-  color: #eee !important;
   background: #152028 !important;
   font-family: 'Recursive', sans-serif !important;
 }
@@ -35,8 +35,9 @@ body {
 
 .int-social-list {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   border-top: 0.5px rgb(212, 54, 75) solid;
+  width: 20%;
   padding-top: 1.15rem;
 }
 
@@ -48,6 +49,11 @@ body {
 
 .fab {
   color: #eee;
+}
+
+.fab:hover {
+  text-decoration: none;
+  color: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
 
 .detail {
@@ -100,6 +106,11 @@ p.footer {
 
   .nav-link {
     font-size: 1.5rem;
+  }
+
+  .int-social-list {
+    width: 100%;
+    justify-content: center;
   }
 
   .greeting {
