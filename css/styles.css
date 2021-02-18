@@ -11,7 +11,7 @@ body {
   gap: 24px;
   grid-template-rows: auto 1fr auto;
   color: #eee !important;
-  background: rgb(43, 48, 53) !important;
+  background: #152028 !important;
   font-family: 'Recursive', sans-serif !important;
 }
 
@@ -19,7 +19,7 @@ body {
   margin-top: 125px;
 }
 
-.greeting {
+.greeting, .detail {
   padding: 70px 0;
   max-width: 90%;
 }
@@ -37,10 +37,10 @@ body {
 }
 
 #selfie {
-  float: left;
   margin-right: 100px !important;
   box-shadow: 5px 5px rgb(212,54,75);
 }
+
 
 #carouselExampleCaptions .carousel-item .carousel-caption{
   background-color: rgba(33,37,41,0.5);
