@@ -8,7 +8,6 @@
 
 body {
   display:grid;
-  height: 80vh;
   gap: 24px;
   grid-template-rows: auto 1fr auto;
   color: #eee !important;
@@ -43,6 +42,11 @@ body {
   box-shadow: 5px 5px rgb(212,54,75);
 }
 
+#carouselExampleCaptions .carousel-item .carousel-caption{
+  background-color: rgba(33,37,41,0.5);
+  text-align: left;
+}
+
 p.footer {
   margin: 0.5rem 0 !important;
 }
@@ -55,8 +59,12 @@ p.footer {
     font-size: 2.5rem;
   }
 
-  #intro, #work {
+  #intro {
     margin-top: 50px;
+  }
+
+  #work {
+    margin-top: 15px;
   }
 
   .nav-link {
