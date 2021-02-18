@@ -11,11 +11,11 @@ body {
   gap: 24px;
   grid-template-rows: auto 1fr auto;
   color: #eee !important;
-  background: rgb(43, 48, 53) !important;
+  background: #152028 !important;
   font-family: 'Recursive', sans-serif !important;
 }
 
-#intro, #work {
+#intro, #work, #setup {
   margin-top: 125px;
 }
 
@@ -24,7 +24,11 @@ body {
   max-width: 90%;
 }
 
-.i, .w {
+.detail {
+  vertical-align: text-top;
+}
+
+.i, .w, .s {
   padding-bottom: 25px;
 }
 
@@ -37,7 +41,6 @@ body {
 }
 
 #selfie {
-  float: left;
   margin-right: 100px !important;
   box-shadow: 5px 5px rgb(212,54,75);
 }
@@ -49,6 +52,7 @@ body {
 
 p.footer {
   margin: 0.5rem 0 !important;
+  display: inline-block;
 }
 
 /* Responsiveness Adjustments */
