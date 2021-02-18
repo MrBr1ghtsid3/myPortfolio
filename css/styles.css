@@ -15,10 +15,17 @@ body {
   font-family: 'Recursive', sans-serif !important;
 }
 
-#intro,
-#work,
+.navbar {
+  color: #eee;
+  background: #10181f;
+}
+
+.container {
+  margin-top: 100px;
+}
+
 #setup {
-  margin-top: 125px;
+  padding-bottom: 125px !important;
 }
 
 .greeting {
@@ -85,7 +92,7 @@ body {
 }
 
 p.footer {
-  margin: 0.5rem 0 !important;
+  margin: 0 0 0.5rem 0 !important;
 }
 
 /* Responsiveness Adjustments */
