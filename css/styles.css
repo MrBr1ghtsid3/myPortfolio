@@ -7,7 +7,7 @@
 }
 
 body {
-  display:grid;
+  display: grid;
   gap: 24px;
   grid-template-rows: auto 1fr auto;
   color: #eee !important;
@@ -15,20 +15,48 @@ body {
   font-family: 'Recursive', sans-serif !important;
 }
 
-#intro, #work, #setup {
+#intro,
+#work,
+#setup {
   margin-top: 125px;
 }
 
 .greeting {
-  padding: 70px 0;
+  padding: 65px 0;
   max-width: 90%;
+}
+
+/* Social */
+
+.int-social {
+  padding: 0 1.875rem 1.25rem;
+
+}
+
+.int-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 0.5px rgb(212, 54, 75) solid;
+  padding-top: 1.15rem;
+}
+
+.int-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+  list-style-type: none;
+}
+
+.fab {
+  color: #eee;
 }
 
 .detail {
   vertical-align: text-top;
 }
 
-.i, .w, .s {
+.i,
+.w,
+.s {
   padding-bottom: 25px;
 }
 
@@ -37,22 +65,21 @@ body {
 }
 
 .navbar .navbar-nav .nav-link:hover {
-  box-shadow: 1px 0px 0px 0px rgb(212,54,75);
+  box-shadow: 1px 0px 0px 0px rgb(212, 54, 75);
 }
 
 #selfie {
   margin-right: 100px !important;
-  box-shadow: 5px 5px rgb(212,54,75);
+  box-shadow: 2px 2px rgb(212, 54, 75);
 }
 
-#carouselExampleCaptions .carousel-item .carousel-caption{
-  background-color: rgba(33,37,41,0.5);
+#carouselExampleCaptions .carousel-item .carousel-caption {
+  background-color: rgba(33, 37, 41, 0.5);
   text-align: left;
 }
 
 p.footer {
   margin: 0.5rem 0 !important;
-  display: inline-block;
 }
 
 /* Responsiveness Adjustments */
@@ -81,7 +108,7 @@ p.footer {
   }
 
   .navbar .navbar-nav .nav-link:hover {
-    box-shadow: 0px 1px 0px 0px rgb(212,54,75);
+    box-shadow: 0px 1px 0px 0px rgb(212, 54, 75);
   }
 
   #selfie {
