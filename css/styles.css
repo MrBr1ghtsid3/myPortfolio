@@ -68,6 +68,7 @@ body {
 
 body::-webkit-scrollbar {
   width: 1em;
+  
 }
  
 body::-webkit-scrollbar-track {
@@ -117,6 +118,82 @@ p.footer {
   margin: 0 0 0.5rem 0 !important;
 }
 
+/* Contact form */
+
+form {
+  justify-content: center;
+  max-width: 75em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  color:#26547c;
+}
+.contact-right {
+  text-align: left;
+  padding-left: 10%;
+}
+
+.contact-right .contact-box {
+  margin-bottom: 20px;
+  margin-left: 120px;
+}
+
+.contact-right .contact-box h4 {
+  clear: both;
+  color: #26547c;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.contact-right .contact-box p {
+  font-size: 15px;
+  color: #eee;
+}
+
+.heading {
+  margin-bottom: 30px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  line-height: 26px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  box-shadow: none;
+  color: #1f3c88;
+  background: #fff;
+  border: 1px solid;
+  padding: 12px 18px;
+  border-radius: 0px;
+  font-weight: 400;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+
+.form-control:focus {
+  border-color: #ee6f57;
+  outline: 0;
+}
+
+.pagination .page-item .page-link {
+  margin: 3px;
+  padding: 15px 20px;
+  color: #ee6f57;
+  background: #fff;
+}
+
+.pagination .page-item .page-link:hover {
+  background: #ee6f57;
+  color: #fff;
+}
+
 /* Responsiveness Adjustments */
 
 @media only screen and (max-width: 900px) {
@@ -139,7 +216,11 @@ p.footer {
 
   .int-social-list {
     width: 100%;
-    justify-content: center;
+    justify-content: start;
+  }
+
+  .contact-right .contact-box {
+    margin-top: 50px;
   }
 
   .greeting {
