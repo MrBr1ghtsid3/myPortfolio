@@ -69,7 +69,7 @@ body {
 
 body::-webkit-scrollbar {
   width: 0.65em;
-  background-color: #eee;
+  background-color: #152028;
 }
 
 body::-webkit-scrollbar-track {
@@ -79,13 +79,13 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(179, 45, 62);
+  background-color: #10181f;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #b30000;
+  background: #470303;
 }
 
 /* Scroll 2 Top */
