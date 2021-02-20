@@ -19,16 +19,18 @@ body {
 .navbar {
   color: #eee;
   background: #10181f;
+  margin-bottom: 100px;
 }
 
 .container {
-  padding: 100px 0;
+  padding-bottom: 100px;
 }
 
 .greeting {
   padding: 65px 0;
   max-width: 90%;
 }
+
 
 /* Social */
 
@@ -60,7 +62,6 @@ body {
   color: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
-
 /* Scrollbar */
 
 body::-webkit-scrollbar {
@@ -79,7 +80,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
-/* Handle on hover */
+/* On hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #470303;
 }
@@ -88,8 +89,8 @@ body::-webkit-scrollbar-thumb {
 
 #return-to-top {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 100px;
+  right: 10px;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.7);
   width: 50px;
@@ -136,7 +137,7 @@ body::-webkit-scrollbar-thumb {
 
 .i,
 .w,
-.s {
+.s, .c {
   padding-bottom: 25px;
 }
 
@@ -172,8 +173,7 @@ p.footer {
 form {
   justify-content: center;
   max-width: 75em;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 100px auto;
 }
 
 label {
@@ -202,10 +202,6 @@ label {
 .contact-right .contact-box p {
   font-size: 15px;
   color: #eee;
-}
-
-.heading {
-  margin-bottom: 30px;
 }
 
 .form-control {
