@@ -9,7 +9,7 @@
 
 body {
   display: grid;
-  gap: 24px;
+  /* gap: 24px; */
   grid-template-rows: auto 1fr auto;
   background: #152028 !important;
   font-family: 'Recursive', sans-serif !important;
@@ -22,11 +22,7 @@ body {
 }
 
 .container {
-  margin-top: 100px;
-}
-
-#setup {
-  padding-bottom: 125px !important;
+  padding: 100px 0;
 }
 
 .greeting {
@@ -88,7 +84,7 @@ body::-webkit-scrollbar-thumb {
   background: #470303;
 }
 
-/* Scroll 2 Top */
+/* Scroll 2 Top - codepen */
 
 #return-to-top {
   position: fixed;
@@ -160,6 +156,11 @@ body::-webkit-scrollbar-thumb {
 #carouselExampleCaptions .carousel-item .carousel-caption {
   background-color: rgba(33, 37, 41, 0.5);
   text-align: left;
+}
+
+footer {
+ background-color: #10181f;
+ padding-top: 50px;
 }
 
 p.footer {
