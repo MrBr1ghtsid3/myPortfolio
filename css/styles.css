@@ -159,8 +159,8 @@ body::-webkit-scrollbar-thumb {
 #carouselCaption .carousel-item .carousel-caption {
   background-color: rgba(33, 37, 41, 0.5);
   text-align: left;
-  width:85%;
-  height:25%;
+  width: 85%;
+  height: 25%;
 }
 
 footer {
@@ -174,12 +174,13 @@ p.footer {
 
 /* Carousel buttons */
 
+.carousel-control-next,
 .carousel-control-prev {
-  
+  width: 35px !important;
 }
 
 .icon-background {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 /* Contact form */
