@@ -141,7 +141,8 @@ body::-webkit-scrollbar-thumb {
 
 .i,
 .w,
-.s {
+.s,
+.c {
   padding-bottom: 45px;
 }
 
@@ -190,7 +191,7 @@ p.footer {
 
 form {
   justify-content: center;
-  margin: 100px auto;
+  margin: 0 100px auto auto;
 }
 
 label {
@@ -222,7 +223,7 @@ label {
   color: #eee;
 }
 
-.form {
+form {
   position: relative;
   width: 100%;
   display: flex;
@@ -230,18 +231,19 @@ label {
   justify-content: center;
 }
 
-.form:before {
+form:before {
     content: "";
     background-image: url('https://i.pinimg.com/originals/a9/2f/e9/a92fe9904f1940169b30c6ab54bf2f0e.jpg');
     background-size: cover;
     position: absolute;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.75;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.45;
     z-index: -1;
 }
 
