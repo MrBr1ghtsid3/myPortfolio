@@ -26,6 +26,10 @@ body {
   padding-bottom: 200px;
 }
 
+#intro {
+  margin-top: 50px;
+}
+
 .greeting {
   padding: 65px 0;
   max-width: 90%;
@@ -137,9 +141,8 @@ body::-webkit-scrollbar-thumb {
 
 .i,
 .w,
-.s,
-.c {
-  padding-bottom: 25px;
+.s {
+  padding-bottom: 45px;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -199,6 +202,7 @@ label {
   padding-left: 10%;
 }
 
+
 .contact-right .contact-box {
   margin-bottom: 20px;
   margin-left: 120px;
@@ -216,6 +220,29 @@ label {
 .contact-right .contact-box p {
   font-size: 15px;
   color: #eee;
+}
+
+.form {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form:before {
+    content: "";
+    background-image: url('https://i.pinimg.com/originals/a9/2f/e9/a92fe9904f1940169b30c6ab54bf2f0e.jpg');
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    z-index: -1;
 }
 
 .form-control {
