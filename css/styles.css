@@ -9,7 +9,6 @@
 
 body {
   display: grid;
-  /* gap: 24px; */
   grid-template-rows: auto 1fr auto;
   background: #152028 !important;
   font-family: 'Recursive', sans-serif !important;
@@ -22,7 +21,10 @@ body {
   margin-bottom: 100px;
 }
 
-#intro, #work, #setup, #contact {
+#intro,
+#work,
+#setup,
+#contact {
   padding-bottom: 200px;
 }
 
@@ -157,11 +159,14 @@ body::-webkit-scrollbar-thumb {
 
 #selfie {
   margin-right: 100px !important;
-  box-shadow: 2px 2px rgb(212, 54, 75);
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #carouselCaption .carousel-item .carousel-caption {
-  background-color: rgba(33, 37, 41, 0.5);
+  background-color: rgba( 4, 1, 1, 0.70 );
   text-align: left;
   width: 85%;
   height: 25%;
@@ -176,6 +181,15 @@ p.footer {
   margin: 0 0 0.5rem 0 !important;
 }
 
+/* Carousel */
+
+.carousel-inner {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
 /* Carousel buttons */
 
 .carousel-control-next,
@@ -184,7 +198,7 @@ p.footer {
 }
 
 .icon-background {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba( 4, 1, 1, 0.70 );
 }
 
 /* Contact form */
@@ -201,6 +215,7 @@ label {
 .contact-right {
   text-align: left;
   padding-left: 10%;
+  
 }
 
 
@@ -211,7 +226,7 @@ label {
 
 .contact-right .contact-box h4 {
   clear: both;
-  color: #26547c;
+  color: rgb(212, 54, 75);
   font-weight: 900;
   font-size: 18px;
   line-height: 22px;
@@ -229,22 +244,29 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 35px 0;
+  background: rgba( 4, 1, 1, 0.70 );
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  /* backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); */
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 form:before {
-    content: "";
-    background-image: url('https://i.pinimg.com/originals/a9/2f/e9/a92fe9904f1940169b30c6ab54bf2f0e.jpg');
-    background-size: cover;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0.65;
-    z-index: -1;
+  content: "";
+  background-image: url('https://i.pinimg.com/originals/a9/2f/e9/a92fe9904f1940169b30c6ab54bf2f0e.jpg');
+  background-size: cover;
+  border-radius: 10px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .form-control {
