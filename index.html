@@ -27,7 +27,7 @@
 <body>
 
     <!-- NAV -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
         <div class="container">
             <a class="navbar-brand">
                 <img src="/img_files/Letter.png" alt="letter ts" width="55" height="49" class="" id="myLogo">
@@ -38,6 +38,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
                     <a class="nav-link" href="#work">myWork</a>
                     <!-- <a class="nav-link" href="#setup">mySetup</a> -->
                     <a class="nav-link" href="#contact">contactMe</a>
@@ -51,26 +52,26 @@
 
     <div class="container">
         <section id="intro">
-        <div class="profileImg">
-            <picture>
-                <img src="/img_files/profile_img.png" alt="my profile image" width="320" height="385"
-                    class="rounded mx-auto d-block float-start" id="selfie">
-            </picture>
-        </div>
-        <div class="greeting">
-            <h1 class="i">Welcome</h1>
-            <p class="lead">My name is Tsvetoslav Shalev, but you can call me Sean. An aspiring Web
-                Designer/Developer and a hobbyist Writer, curently residing in London, UK. I believe in simplicity.
-            </p>
-        </div>
-        <section class="int-social">
-            <ul class="int-social-list">
-                <li><a href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
-                <li><a href="#"><i class="fab fa-wordpress fa-lg"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin fa-lg"></i></a></li>
-                <li><a href="#"><i class="fab fa-github fa-lg"></i></a></li>
-            </ul>
-        </section>
+            <div class="profileImg">
+                <picture>
+                    <img src="/img_files/profile_img.png" alt="my profile image" width="320" height="385"
+                        class="rounded mx-auto d-block float-start" id="selfie">
+                </picture>
+            </div>
+            <div class="greeting">
+                <h1 class="i">Welcome</h1>
+                <p class="lead">My name is Tsvetoslav Shalev, but you can call me Sean. An aspiring Web
+                    Designer/Developer and a hobbyist Writer, curently residing in London, UK. I believe in simplicity.
+                </p>
+            </div>
+            <section class="int-social">
+                <ul class="int-social-list">
+                    <li><a href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
+                    <li><a href="#"><i class="fab fa-wordpress fa-lg"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin fa-lg"></i></a></li>
+                    <li><a href="#"><i class="fab fa-github fa-lg"></i></a></li>
+                </ul>
+            </section>
         </section>
     </div>
 
@@ -94,7 +95,7 @@
                         <img src="img_files/game.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block p-1 ">
                             <h5>Game Concept</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <p>A single static page for concept/commercial game projects.</p>
                             <small class="">Languages: HTML5 / CSS3 / JavaScript</small>
                             <br>
                             <a href="https://mrbr1ghtsid3.github.io/Game_website/" target="_blank"
@@ -105,8 +106,8 @@
                         <img src="img_files/cv.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block p-1 ">
                             <h5>Curriculm Vitae</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                            <small class="">Languages: HTML5 / CSS3 / JavaScript</small>
+                            <p>Representing the contents of a CV in a single static web page.</p>
+                            <small class="">Languages: HTML5 / CSS3</small>
                             <br>
                             <a href="https://mrbr1ghtsid3.github.io/cv2020/" target="_blank"
                                 class="btn btn-outline-danger">demo</a>
@@ -116,12 +117,12 @@
                         <img src="img_files/black_white.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block p-1 ">
                             <h5>Dark Mode Toggle</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <p>A stylish static page with a dark/light mode toggler.</p>
                             <small class="">Languages: HTML5 / CSS3 / JavaScript</small>
-                            <div class="">
-                                <a href="https://mrbr1ghtsid3.github.io/NegativeSpaces/" target="_blank"
-                                    class="btn btn-outline-danger">demo</a>
-                            </div>
+
+                            <a href="https://mrbr1ghtsid3.github.io/NegativeSpaces/" target="_blank"
+                                class="btn btn-outline-danger">demo</a>
+
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaption"
@@ -153,14 +154,15 @@
                         Get in Touch
                     </h2>
                 </div>
-                <form method="post" action="https://getform.io/f/63dd1331-67d9-4443-948a-276d91c6c947" autocomplete="off">
+                <form method="post" action="https://getform.io/f/63dd1331-67d9-4443-948a-276d91c6c947"
+                    autocomplete="off">
                     <div class="row">
                         <div class="col-md-8">
                             <div class="row">
                                 <div class="col-md-6">
                                     <label>Your Name</label>
                                     <input type="text" class="form-control" id="name" name="email"
-                                        placeholder="First name" required data-error="Please enter your name">
+                                        placeholder="Name" required data-error="Please enter your name">
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="col-md-6">

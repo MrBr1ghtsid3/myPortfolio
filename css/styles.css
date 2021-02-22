@@ -10,14 +10,13 @@
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background: #152028 !important;
+  background: rgb(131,58,180);
+  background: linear-gradient(4deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   font-family: 'Recursive', sans-serif !important;
   overflow: auto;
 }
 
 .navbar {
-  color: #eee;
-  background: #10181f;
   margin-bottom: 100px;
 }
 
@@ -49,7 +48,7 @@ body {
   display: flex;
   justify-content: left;
   border-top: 0.5px rgb(212, 54, 75) solid;
-  width: 20%;
+  width: 26%;
   padding-top: 1.15rem;
 }
 
@@ -61,11 +60,12 @@ body {
 
 .fab {
   color: #eee;
+  margin: auto 10px;
 }
 
 .fab:hover {
   text-decoration: none;
-  color: rgba(131, 58, 180, 1);
+  color: #fff;
 }
 
 /* Scrollbar */
@@ -173,8 +173,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 footer {
-  background-color: #10181f;
-  padding-top: 50px;
+  background-color: #1b3144;
+  padding-top: 35px;
+  box-shadow: 0px 1px 5px white, 0px -1px 5px black;
 }
 
 p.footer {
@@ -205,7 +206,7 @@ p.footer {
 
 form {
   justify-content: center;
-  margin: 0 100px auto auto;
+  /* margin: 0  auto 0 auto; */
 }
 
 label {
@@ -244,11 +245,9 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 35px 0;
-  background: rgba( 4, 1, 1, 0.70 );
+  padding: 85px 0;
+  background: rgba( 4, 1, 1, 0.50 );
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  /* backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); */
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
