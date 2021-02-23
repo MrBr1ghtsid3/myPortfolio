@@ -470,7 +470,8 @@ form:before {
   }
 
   .contact-right .contact-box {
-    margin-top: 50px;
+    margin: 25px 0 20px 64px;
+    
   }
 
   .greeting {
