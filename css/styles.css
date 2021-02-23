@@ -325,6 +325,16 @@ form:before {
   padding-bottom: 30px !important;
 }
 
+.form {
+  padding: 35px 0 !important;
+}
+
+#form-submit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .i,
 .w,
 .c {
