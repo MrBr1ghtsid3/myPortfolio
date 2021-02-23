@@ -198,9 +198,10 @@ p.footer {
   width: 35px !important;
 }
 
-.icon-background {
-  color: rgba( 4, 1, 1, 0.70 );
-}
+.outline {
+  -webkit-text-stroke: 1px #000;
+  -webkit-text-fill-color: #fff ;
+ }
 
 /* Contact form */
 
