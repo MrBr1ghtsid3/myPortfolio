@@ -16,6 +16,10 @@ body {
   overflow: auto;
 }
 
+h5 {
+  color: rgb(212, 54, 75);
+}
+
 .navbar {
   margin-bottom: 100px;
 }
@@ -35,11 +39,13 @@ body {
   max-width: 90%;
 }
 
-a.btn .btn-outline-danger .demo {
-  margin-top: 100px !important;
+a.demo {
+  margin-top: 20px !important;
 }
 
-
+#myLogo {
+  filter: contrast(120%);
+}
 /* Social */
 
 .int-social {
@@ -50,7 +56,7 @@ a.btn .btn-outline-danger .demo {
 .int-social-list {
   display: flex;
   justify-content: left;
-  border-top: 0.5px rgb(212, 54, 75) solid;
+  border-top: 0.5px #608fb1 solid;
   width: 26%;
   padding-top: 1.15rem;
 }
@@ -148,6 +154,7 @@ body::-webkit-scrollbar-thumb {
 .w,
 .c {
   padding-bottom: 45px;
+  text-shadow: 1px 1px #152028;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -168,10 +175,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 #carouselCaption .carousel-item .carousel-caption {
-  background-color: rgba( 4, 1, 1, 0.70 );
-  text-align: left;
-  width: 85%;
-  height: 25%;
+background: rgba( 0, 0, 0, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+height: 25%;
 }
 
 footer {
